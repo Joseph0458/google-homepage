@@ -1,5 +1,10 @@
-.logo {
-  background-image: url(/../images/google-icons.png);
-  background-size: 528px 58px;
+div.top {
   display: inline-block;
+}
+div.top p:hover {
+  text-decoration: underline;
+}
+div.top a.apps {
+  background-image: url(../images/google-icons.png);
+  background-size: 528px 68px;
 }
