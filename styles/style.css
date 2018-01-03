@@ -1,9 +1,14 @@
+p.solo {
+  display: block;
+  position: absolute;
+  bottom: 30px;
+  padding-left: 15px;
+}
 div.top {
   display: inline-block;
   position: absolute;
   top: 0px;
   right: 0px;
-  
 }
 div.top p:hover {
   text-decoration: underline;
@@ -11,6 +16,7 @@ div.top p:hover {
 div.top p {
   float: inline-start;
   padding-right: 15px;
+  padding-top: 5px;
 }
 div.top a.apps {
   display: block;
@@ -36,6 +42,8 @@ div.top a.notifications {
   height: 30px;
   width: 30px;
   float: left;
+  margin-top: 3px;
+  margin-left: 5px;
 }
 div.top a.notifications:hover {
   opacity: 0.5;
@@ -50,12 +58,57 @@ div.top a.profile {
   height: 30px;
   width: 30px;
   float: right;
+  margin-top: 4px;
+  margin-left: 3px;
 }
 div.top a.profile:hover {
   opacity: 0.5;
 }
+div.middle {
+  display: block;
+  box-sizing: border-box;
+  position: absolute;
+  left: 50%;
+  top: 30%;
+  margin-top: -92px;
+  margin-left: -272px;
+}
+.search-bar {
+  width: 544px;
+}
+.button {
+  position: absolute;
+  left: 140px;
+  top: 230px;
+}
+.button:hover {
+  opacity: 0.8;
+}
+div.bottom-left {
+  display: block;
+  box-sizing: border-box;
+  position: absolute;
+  bottom: 0;
+}
+div.bottom-left p {
+  float: inline-start;
+  padding-left: 15px;
+  padding-bottom: 5px;
+}
 div.bottom-left p:hover {
   text-decoration: underline;
+}
+div.bottom-right {
+  display: block;
+  box-sizing: border-box;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+div.bottom-right p {
+  float: inline-start;
+  padding-right: 15px;
+  padding-bottom: 5px;
 }
 div.bottom-right p:hover {
   text-decoration: underline;
